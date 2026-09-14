@@ -1057,7 +1057,7 @@ body{
   
   .exchange-cta {
     width: calc(100% - 60px);
-    height: 350px;
+    
     padding: 0% 5%;
   }
 
@@ -1123,10 +1123,10 @@ body{
 }
 
 .footer {
-  width: 100%;
+  
   background: #f7f7f8;
   color: #464a58;
-  padding: 120px 5.2% 30px;
+  padding: 5% 10%;
   font-family: Georgia, "Times New Roman", serif;
 }
 
@@ -1236,4 +1236,17 @@ body{
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+@media (max-width: 1000px) {
+  .footer-botto{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-top: solid #00000085 1px;
+    margin: 0px;
+    padding-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+  }
 }
