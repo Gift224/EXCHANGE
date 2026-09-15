@@ -181,6 +181,11 @@ nav {
     margin: 20px;
 }
 
+.side-nav li a {
+    color: white;
+    text-decoration: none;
+}
+
 .nav-overlay.open .side-nav{
     transform:translateY(0);
 
